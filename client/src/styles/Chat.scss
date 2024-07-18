@@ -1,0 +1,34 @@
+body {
+    color: black;
+    .chatbox-container {
+        /* From https://css.glass */
+        background: rgba(208, 186, 186, 0.26);
+        border-radius: 10px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        border: 1px solid rgba(208, 186, 186, 0.34);  
+        width: 100%;
+
+h3 {
+    border-bottom: 1px solid black;
+    color:white;
+} 
+    }
+background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+
+}
+.message-list {
+    
+    overflow-y: auto;
+    max-height: 60vh;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.send-form {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
